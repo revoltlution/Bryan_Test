@@ -1,0 +1,6 @@
+if {::[UTL]Program:#1.#2.XA_High} OR {::[UTL]Program:#1.#2.XA_Low} then 1
+else if {::[UTL]Program:#1.#2.TAHH} then 2
+else if {::[UTL]Program:#1.#2.TALL} then 3
+else if {::[UTL]Program:#1.#2.TAH} then 4
+else if  {::[UTL]Program:#1.#2.TAL} then 5
+Else 0

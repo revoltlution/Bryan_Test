@@ -1,0 +1,12 @@
+If ({::[UTL]Program:PSS.P101A.QI_AUTO} = 1) AND ({::[UTL]Program:PSS.P101A.QI_RUN_STATUS} = 0) AND ({::[UTL]Program:PSS.P101A.LOCAL_STATUS} = 1) Then 0
+ Else 
+If ({::[UTL]Program:PSS.P101A.QI_AUTO} = 1) AND ({::[UTL]Program:PSS.P101A.QI_RUN_STATUS} = 1) AND ({::[UTL]Program:PSS.P101A.LOCAL_STATUS} = 1)  Then 1
+ Else 
+If ({::[UTL]Program:PSS.P101A.LOCAL_STATUS} = 0) AND ({::[UTL]Program:PSS.P101A.QI_RUN_STATUS} = 0) Then 2
+ Else 
+If ({::[UTL]Program:PSS.P101A.LOCAL_STATUS} = 0) AND  ({::[UTL]Program:PSS.P101A.QI_RUN_STATUS} = 1) Then 3
+ Else 
+If ({::[UTL]Program:PSS.P101A.QI_AUTO} = 0) AND ({::[UTL]Program:PSS.P101A.LOCAL_STATUS} = 1) AND  {::[UTL]Program:PSS.P101A.QI_RUN_STATUS} = 0 Then  4
+ Else 
+ If ({::[UTL]Program:PSS.P101A.QI_AUTO} =0) AND ({::[UTL]Program:PSS.P101A.LOCAL_STATUS} = 1) AND  {::[UTL]Program:PSS.P101A.QI_RUN_STATUS} = 1 Then  5
+ Else 6
