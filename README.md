@@ -1,9 +1,12 @@
-<<<<<<< HEAD
+Wow my first
+==========
 Yes!  The Readme is working!
 This is my first WORKING github repo!
+Here's a link to my [Google+ profile][1]
 
-==========
-Bryan_Test
-==========
 
->>>>>>> 6459fba59c623af2e411d0894ff9039f7bff5517
+Working with lines!
+----------
+I guess I'll work in Github on my own... screww these guys :)
+
+[1]=html://
