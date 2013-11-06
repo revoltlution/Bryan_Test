@@ -12,4 +12,4 @@ Working with lines!
 ----------
 I guess I'll work in Github on my own... screww these guys :)
 
-[1]: http://www.google.com/
+[1]: https://plus.google.com/b/108443337414027616431/108443337414027616431/about?hl=en
